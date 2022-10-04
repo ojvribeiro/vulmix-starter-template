@@ -1,0 +1,16 @@
+{
+  "name": "vulmix-app",
+  "scripts": {
+    "create-img-dir": "mkdirp _dist/assets/img",
+    "remove-dist": "rimraf _dist/assets/_vulmix _dist/assets/css _dist/assets/js",
+    "build": "npm run remove-dist && npm run create-img-dir && mix",
+    "dev": "npm run remove-dist && npm run create-img-dir && mix watch",
+    "serve": "npx http-server -p 8000 -a localhost _dist --gzip --proxy http://localhost:8000?",
+    "prod": "npm run remove-dist && npm run create-img-dir && mix --production"
+  },
+  "author": "",
+  "devDependencies": {
+    "vulmix": "^0.5.0-alpha"
+  },
+  "dependencies": {}
+}

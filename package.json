@@ -9,6 +9,6 @@
   "author": "",
   "devDependencies": {},
   "dependencies": {
-    "vulmix": "^0.5.0-alpha"
+    "vulmix": "^0.5.4-alpha"
   }
 }

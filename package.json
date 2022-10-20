@@ -8,6 +8,6 @@
     "serve": "npx http-server -p 8000 -a localhost _dist --gzip --proxy http://localhost:8000?"
   },
   "dependencies": {
-    "vulmix": "^0.5.5-beta.10"
+    "vulmix": "^0.5.5-beta.11.preview"
   }
 }

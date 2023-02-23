@@ -2,8 +2,8 @@
   "private": true,
   "name": "vulmix-app",
   "scripts": {
-    "dev": "mix watch --hot",
-    "prod": "mix --production",
+    "dev": "mix watch --mix-config=.vulmix/laravel-mix/webpack.mix.js --hot",
+    "prod": "mix --mix-config=.vulmix/laravel-mix/webpack.mix.js --production",
     "serve": "npx http-server -p 8000 -a localhost _dist --gzip --proxy http://localhost:8000?"
   },
   "dependencies": {

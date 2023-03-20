@@ -7,6 +7,6 @@
     "serve": "npm run prod && npx http-server -p 8000 -a localhost _dist --gzip --proxy http://localhost:8000?"
   },
   "dependencies": {
-    "vulmix": "preview"
+    "vulmix": "0.6.0-beta"
   }
 }

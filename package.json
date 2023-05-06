@@ -2,10 +2,10 @@
   "private": true,
   "name": "vulmix-app",
   "scripts": {
-    "prepare": "node ./node_modules/vulmix/src/cli.js prepare",
-    "dev": "node ./node_modules/vulmix/src/cli.js dev",
-    "prod": "node ./node_modules/vulmix/src/cli.js prod",
-    "serve": "node ./node_modules/vulmix/src/cli.js serve"
+    "prepare": "vulxi prepare",
+    "dev": "vulxi dev",
+    "prod": "vulxi prod",
+    "serve": "vulxi serve"
   },
   "dependencies": {
     "vulmix": "preview"

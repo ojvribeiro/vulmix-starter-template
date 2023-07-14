@@ -1,5 +1,5 @@
-import { VulmixConfig } from "vulmix/types/vulmix-config";
+import { defineVulmixConfig } from './.vulmix/utils/defineVulmixConfig'
 
-module.exports = <VulmixConfig>{
+export default defineVulmixConfig({
   // ...
-};
+})

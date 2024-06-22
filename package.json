@@ -8,6 +8,6 @@
     "serve": "vulxi serve"
   },
   "dependencies": {
-    "vulmix": "0.6.2-beta"
+    "vulmix": "0.6.3-beta"
   }
 }

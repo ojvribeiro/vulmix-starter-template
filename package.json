@@ -4,10 +4,11 @@
   "scripts": {
     "prepare": "vulxi prepare",
     "dev": "vulxi dev",
-    "prod": "vulxi prod",
+    "build": "vulxi build",
     "serve": "vulxi serve"
   },
   "dependencies": {
-    "vulmix": "0.6.3-beta"
+    "vulmix": "preview",
+    "vue": "^3.4.38"
   }
 }

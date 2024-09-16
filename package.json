@@ -8,7 +8,7 @@
     "serve": "vulxi serve"
   },
   "dependencies": {
-    "vulmix": "preview",
+    "vulmix": "^0.7.0",
     "vue": "^3.4.38"
   }
 }

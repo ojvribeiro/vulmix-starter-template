@@ -4,7 +4,7 @@
   "scripts": {
     "prepare": "vulxi prepare",
     "dev": "vulxi dev",
-    "prod": "vulxi prod",
+    "build": "vulxi build",
     "serve": "vulxi serve"
   },
   "dependencies": {
